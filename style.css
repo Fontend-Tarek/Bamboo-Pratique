@@ -1,0 +1,134 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select{margin:0}html{box-sizing:border-box}*,*::before,*::after{box-sizing:inherit}img,video{height:auto;max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+.header {
+    background:  url(img/Hero\ Section.png) center center / cover no-repeat;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.header-menu {
+    background-color: rgba(23, 23, 18, 0.8);
+    display: flex;
+    justify-content: center;
+    
+}
+
+header img {
+    padding: 30px;
+    }
+
+.presentation {
+    text-align: center;
+}
+
+.soustitre {
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.2em;
+    margin-top: 64px;
+}
+
+.titre {
+    margin-top: 30px;
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 400;
+    font-size: 42px;
+}
+
+
+
+
+header p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    list-style: 142%;
+}
+
+.pagination {
+    list-style: none;
+    margin: 30px 0;
+    padding-bottom: 40px;
+    padding-top: 255px;
+    text-align: center;
+}
+.pagination li {
+    display: inline-block;
+}
+
+.pagination a {
+    border: 1px solid white;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-indent: -3000px;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+}
+
+.pagination a.active, .pagination a:hover {
+    background: white;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.decale {
+    padding: 50px 30px;
+}
+
+main img {
+    margin-bottom: 50px;
+}
+
+
+
+
+.titreproduit {
+    font-family: 'Merriweather', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 94px;
+ }
+
+main {
+    margin-top: 45px;
+}
+
+main .active {
+    border: 4px solid #FFB338;
+    border-radius: 15px;
+}
+
+main img:hover {
+    border: 4px solid #FFB338;
+    border-radius: 15px;
+}
+
+.test {
+    background: url(Img/Product\ 1.png) center center / cover no-repeat; 
+    width: 400px;
+    height: 510px;
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+
+.test3 {
+    
+    padding: 16px 175px ;
+    
+    background: linear-gradient(rgba(24, 24, 19, 0.5),rgba(24, 24, 19, 1));
+    
+}
